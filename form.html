@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="f">
+        <form onsubmit="return form();">
+          <center>
+            <h1>Form</h1>
+            <input type="text" placeholder="First Name" id="name" />
+            <p id="nameerror"></p>
+            <input type="text" placeholder="Second Name" id="secondname" />
+            <p id="secondNameError"></p>
+            <input type="number" placeholder="Enter Number" id="number" />
+            <p id="numberError"></p>
+            <input type="text" placeholder="Enter Email" id="email" />
+            <p id="emailError"></p>
+            <input type="password" placeholder="Password" id="password" />
+            <p id="passwordError"></p>
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              id="password2"
+            />
+            <p id="passwordError2"></p>
+            <button id="submit" type="submit">SUBMIT</button>
+          </center>
+        </form>
+      </div>
+    </div>
+    <script src="form.js"></script>
+    <!-- <script src="prectice.js"></script> -->
+  </body>
+</html>
